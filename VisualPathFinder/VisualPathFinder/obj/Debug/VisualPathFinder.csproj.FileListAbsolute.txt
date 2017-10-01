@@ -1,0 +1,9 @@
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\bin\Debug\VisualPathFinder.exe.config
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\bin\Debug\VisualPathFinder.exe
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\bin\Debug\VisualPathFinder.pdb
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.csprojResolveAssemblyReference.cache
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.MainForm.resources
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.Properties.Resources.resources
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.csproj.GenerateResource.Cache
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.exe
+c:\users\matthijs\documents\visual studio 2015\Projects\VisualPathFinder\VisualPathFinder\obj\Debug\VisualPathFinder.pdb
