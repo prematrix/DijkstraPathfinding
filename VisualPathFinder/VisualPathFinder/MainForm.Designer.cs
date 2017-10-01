@@ -31,6 +31,7 @@
             this.newFieldBtn = new System.Windows.Forms.Button();
             this.findPathBtn = new System.Windows.Forms.Button();
             this.optionBox = new System.Windows.Forms.ListBox();
+            this.drawingPanel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // newFieldBtn
@@ -51,26 +52,41 @@
             this.findPathBtn.TabIndex = 2;
             this.findPathBtn.Text = "Find Path";
             this.findPathBtn.UseVisualStyleBackColor = true;
+            this.findPathBtn.Click += new System.EventHandler(this.findPathBtn_Click);
             // 
             // optionBox
             // 
             this.optionBox.FormattingEnabled = true;
             this.optionBox.ItemHeight = 16;
-            this.optionBox.Location = new System.Drawing.Point(698, 174);
+            this.optionBox.Location = new System.Drawing.Point(698, 128);
             this.optionBox.Name = "optionBox";
-            this.optionBox.Size = new System.Drawing.Size(312, 132);
+            this.optionBox.Size = new System.Drawing.Size(252, 132);
             this.optionBox.TabIndex = 3;
+            this.optionBox.SelectedIndexChanged += new System.EventHandler(this.optionBox_SelectedIndexChanged);
+            // 
+            // drawingPanel
+            // 
+            this.drawingPanel.Location = new System.Drawing.Point(12, 12);
+            this.drawingPanel.Name = "drawingPanel";
+            this.drawingPanel.Size = new System.Drawing.Size(456, 448);
+            this.drawingPanel.TabIndex = 4;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(990, 601);
+            this.ClientSize = new System.Drawing.Size(990, 619);
+            this.Controls.Add(this.drawingPanel);
             this.Controls.Add(this.optionBox);
             this.Controls.Add(this.findPathBtn);
             this.Controls.Add(this.newFieldBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PathFinder";
             this.ResumeLayout(false);
 
@@ -80,6 +96,7 @@
         private System.Windows.Forms.Button newFieldBtn;
         private System.Windows.Forms.Button findPathBtn;
         private System.Windows.Forms.ListBox optionBox;
+        private System.Windows.Forms.Panel drawingPanel;
     }
 }
 
